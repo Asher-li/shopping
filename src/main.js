@@ -17,6 +17,7 @@ import app from './App.vue'
 //引入vuex
 import Vuex from 'vuex'
 Vue.use(Vuex)
+import 'bootstrap/dist/css/bootstrap.css'
 //Mint-ui组件
 // import {Header} from 'mint-ui'//头部悬浮条
 // Vue.component(Header.name, Header);
