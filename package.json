@@ -32,6 +32,7 @@
     "webpack-cli": "^3.3.7"
   },
   "dependencies": {
+    "better-scroll": "^1.15.2",
     "bootstrap": "^3.4.1",
     "bootstrap-loader": "^3.0.4",
     "mint-ui": "^2.2.13",

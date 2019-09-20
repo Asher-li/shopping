@@ -18,6 +18,7 @@ import app from './App.vue'
 import Vuex from 'vuex'
 Vue.use(Vuex)
 import 'bootstrap/dist/css/bootstrap.css'
+import BScroll from 'better-scroll'
 //Mint-ui组件
 // import {Header} from 'mint-ui'//头部悬浮条
 // Vue.component(Header.name, Header);
