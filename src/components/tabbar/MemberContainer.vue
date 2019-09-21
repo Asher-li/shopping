@@ -11,7 +11,7 @@
     <div class="mui-card">
       <div class="mui-card-header">
         <span class="myOrder">我的订单</span>
-        <span class="AllOrder">查看全部订单></span>
+        <span class="AllOrder">查看全部订单  ></span>
       </div>
       <div class="mui-card-content">
         <div class="mui-card-content-inner">
@@ -80,6 +80,9 @@ export default {};
   }
   .mui-card {
     .mui-card-header {
+      .myOrder{
+        font-size: 18px;
+      }
       .AllOrder {
         font-size: 12px;
         color: #aaa;
@@ -90,6 +93,15 @@ export default {};
         display: flex;
         align-content: center;
         justify-content: space-around;
+      }
+      .mui-icon-extra{
+        color:orangered;
+        font-size: 35px;
+      }
+      .mui-icon{
+        font-size: 35px;
+        color:orangered;
+
       }
       .OrderGoods {
         display: flex;
@@ -121,11 +133,14 @@ export default {};
       .comment {
         width: 50px;
         height: 40px;
+        transform: translateY(8px);
+        .mui-icon-extra-comment{
+          font-size: 27px;
+          
+        }
         span {
           text-align: center;
           display: block;
-          
-
         }
       }
       .custom {
